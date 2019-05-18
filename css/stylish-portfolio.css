@@ -6,10 +6,13 @@
 
 /* Global Styles */
 
+/* original font */
 @font-face {
   font-family: 'Comfortaa Regular';
   src: URL('../fonts/Comfortaa-Regular.ttf') format('ttf');
 }
+
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans&display=swap');
 
 html,
 body {
@@ -19,8 +22,15 @@ body {
 
 body {
 
-    font-family: "Comfortaa Regular","Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Fira Sans","Comfortaa Regular","Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
 
+}
+
+.text-title-left {
+    text-align: center;
+    float: left;
+    margin-left: 20px;
+    margin-top: 9%;
 }
 
 .text-vertical-center {
