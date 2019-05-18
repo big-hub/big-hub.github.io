@@ -230,7 +230,16 @@ hr.small {
 /* Map */
 
 .map {
-    height: 500px;
+    height: 60%;
+    width: 500px;
+    display: grid;
+    grid-template-columns: 400px 400px;
+    grid-template-rows: 400px 400px;
+    margin-left: 24%;
+}
+
+.info-map {
+
 }
 
 @media(max-width:768px) {
