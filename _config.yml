@@ -1,13 +1,13 @@
 # Site settings
 title: "Big Hub Solutions"
-email: "info@bighubsolutions.com"
+email: "owner@bighubsolutions.com"
 description: "Software consulting firm in development and project management."
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
 
 # User setting
 owner:
-email: "info@bighubsolutions.com"
+email: "owner@bighubsolutions.com"
 facebook_username:
 twitter_username:
 github_username: "big-hub"
