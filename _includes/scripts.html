@@ -4,5 +4,31 @@
 <!-- Bootstrap Core JavaScript -->
 <script src="js/bootstrap.min.js"></script>
 
+<script src="js/owl.carousel.js"></script> 
+
 <!-- Custom Theme JavaScript -->
 <script src="js/custom.js"></script> 
+
+<script>
+$(document).ready(function(){
+
+
+$(".nav-click").click(function(){
+    $(".navbar-collapse").removeClass("in");
+});
+
+var headertopoption = $(window);
+var headTop = $('.navbar-custom');
+
+headertopoption.on('scroll', function () {
+    if (headertopoption.scrollTop() > 0) {
+        headTop.addClass('fixed-top');
+    } else {
+        headTop.removeClass('fixed-top');
+    }
+});
+
+});
+
+
+</script>
