@@ -1,65 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
+---
+layout: default
+---
 
-
-  
-  {% include head.html %}
-
-<body>
-  <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-THHDCLF"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
-
-  {% include navigation.html %}
-  {% include header.html %}
-  {% include about.html %}
-  {% include services.html %}
-  <!--
-  {% include callout.html %}
-  -->
-  {% include portfolio.html %}
-  {% include experiance.html %}
-  {% include call-to-action.html %}
-  {% include footer.html %}
-  {% include scripts.html %}
-
-  <!-- Start of HubSpot Embed Code -->
-  <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/5082371.js"></script>
-
-  <script>
-   $('.owl-carousel').owlCarousel({
-    loop:true,
-    margin:10,
-    dots: true,
-    autoplay: true,
-    autoplay:true,
-    smartSpeed: 3300,
-    autoplayTimeout:3300,
-    autoplayHoverPause:true,
-    responsive:{
-        0:{
-            items:2,
-            nav:false
-        },
-        767:{
-            items:2,
-            nav:false
-        },
-        1000:{
-            items:3,
-            nav:false,
-            dots: false,
-            loop:true
-        }
-    }
-});
-
-
-</script>
-
-
-  <!-- End of HubSpot Embed Code -->
-</body>
-
-</html>
+{% include header.html %}
+{% include about.html %}
+{% include services.html %}
+{% include call-to-action.html %}

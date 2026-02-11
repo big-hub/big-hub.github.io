@@ -1,26 +1,20 @@
 # Site settings
 title: "Big Hub Solutions"
-email: "owner@bighubsolutions.com"
-description: "Software consulting firm in development and project management."
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "" # the base hostname & protocol for your site
+description: "Data Solutions & Process Optimization Agency"
+baseurl: ""
+url: "https://www.bighubsolutions.com"
+tagline: "Discover your Data. Process it, transform it, and make it valuable."
 
-# User setting
+# Company info
 owner:
-email: "owner@bighubsolutions.com"
-facebook_username:
-twitter_username:
-github_username: "big-hub"
-linkedin_username: "big-hub-solutions"
-address:
-  - line: "1426 Moores Ct"
-  - line: "Brentwood, TN"
-  # Feel free to add more lines here
-telephone: "(615) 9621605"
-copyright:
+  name: "Big Hub Solutions"
+  email: "owner@bighubsolutions.com"
+  linkedin_username: "big-hub-solutions"
+  github_username: "big-hub"
+  location: "U.S. & Colombia"
 
-# API settings
-google_api_key: "AIzaSyALG8MO2mP3tX8TdScHvj8Kir7-YcNoOd4"
+# Analytics
+gtm_id: "GTM-THHDCLF"
 
 # Build settings
 markdown: kramdown

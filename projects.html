@@ -1,0 +1,52 @@
+---
+layout: page
+title: Projects
+subtitle: Explore our data solutions, notebooks, dashboards, and automation workflows.
+permalink: /projects/
+---
+
+<section class="section-dark py-5">
+  <div class="container">
+
+    <!-- Category filter buttons -->
+    <div class="row justify-content-center mb-4">
+      <div class="col-auto">
+        <div class="btn-group filter-buttons" role="group" aria-label="Filter projects">
+          <button type="button" class="btn btn-outline-accent active" data-filter="all">All</button>
+          <button type="button" class="btn btn-outline-accent" data-filter="Jupyter Notebook">Notebooks</button>
+          <button type="button" class="btn btn-outline-accent" data-filter="Streamlit App">Streamlit</button>
+          <button type="button" class="btn btn-outline-accent" data-filter="n8n Workflow">n8n</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project cards grid -->
+    <div class="row g-4" id="projects-grid">
+      {% for project in site.data.projects %}
+      <div class="col-md-6 col-lg-4 project-card fade-in" data-category="{{ project.category }}">
+        <div class="card h-100">
+          <div class="card-body d-flex flex-column">
+            <div class="d-flex align-items-center mb-3">
+              <i class="bi {{ project.icon }} project-type-icon me-2"></i>
+              <span class="badge bg-accent-subtle">{{ project.category }}</span>
+            </div>
+            <h5 class="card-title">{{ project.title }}</h5>
+            <p class="card-text flex-grow-1">{{ project.description }}</p>
+            <div class="mt-auto">
+              <div class="project-tags mb-3">
+                {% for tag in project.tags %}
+                <span class="badge bg-dark-subtle">{{ tag }}</span>
+                {% endfor %}
+              </div>
+              <a href="{{ project.link }}" class="btn btn-sm btn-outline-accent">
+                <i class="bi bi-box-arrow-up-right me-1"></i>View Project
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+
+  </div>
+</section>

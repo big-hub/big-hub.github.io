@@ -1,8 +1,18 @@
-<header id="top" class="header">
-
-  <div class="text-title-left header-caption">
-      <img src="../img/bighub.png" alt="Bighub" height="200px" width="280px"></img>
-      <h3 style="color:#343435;">Discover your Data. Process it, transform it, and make it valuable.</h3>
-      <a href="#about" class="btn btn-dark btn-lg">Find Out More</a>
+<section id="hero" class="hero d-flex align-items-center">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-lg-7">
+        <h1 class="hero-title fade-in">Data Solutions &<br>Process Optimization</h1>
+        <p class="hero-subtitle fade-in">{{ site.tagline }}</p>
+        <div class="hero-cta fade-in">
+          <a href="#services" class="btn btn-accent btn-lg me-3">Our Services</a>
+          <a href="#contact" class="btn btn-outline-light btn-lg">Get in Touch</a>
+        </div>
+      </div>
+      <div class="col-lg-5 text-center d-none d-lg-block">
+        <img src="{{ '/img/bighub.png' | relative_url }}" alt="{{ site.title }}"
+             class="hero-logo fade-in" loading="lazy">
+      </div>
+    </div>
   </div>
-</header>
+</section>

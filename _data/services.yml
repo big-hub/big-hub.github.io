@@ -1,0 +1,15 @@
+- title: "Data Engineering"
+  icon: "bi-database"
+  description: "Build robust data pipelines, ETL processes, and cloud-native data architectures that scale with your business."
+
+- title: "Process Optimization"
+  icon: "bi-gear"
+  description: "We analyze your business workflows and deliver solutions that automate, streamline, and reduce operational overhead."
+
+- title: "AI & Analytics"
+  icon: "bi-graph-up-arrow"
+  description: "From predictive models to dashboards, we turn raw data into actionable insights using modern ML and BI tools."
+
+- title: "Cloud Solutions"
+  icon: "bi-cloud"
+  description: "Design, migrate, and manage cloud infrastructure on AWS, GCP, or Azure — optimized for cost and performance."

@@ -1,0 +1,59 @@
+- title: "Customer Churn Prediction"
+  description: "Jupyter notebook analyzing customer behavior patterns using scikit-learn and pandas to predict churn with 92% accuracy."
+  category: "Jupyter Notebook"
+  icon: "bi-journal-code"
+  link: "#"
+  tags:
+    - Python
+    - Machine Learning
+    - pandas
+
+- title: "Sales Dashboard"
+  description: "Interactive Streamlit application providing real-time sales metrics, trend analysis, and forecasting for e-commerce data."
+  category: "Streamlit App"
+  icon: "bi-speedometer2"
+  link: "#"
+  tags:
+    - Streamlit
+    - Python
+    - Plotly
+
+- title: "Data Pipeline Orchestrator"
+  description: "Automated n8n workflow that extracts data from multiple APIs, transforms it, and loads into a data warehouse on schedule."
+  category: "n8n Workflow"
+  icon: "bi-diagram-3"
+  link: "#"
+  tags:
+    - n8n
+    - API
+    - ETL
+
+- title: "Inventory Optimization Model"
+  description: "Jupyter notebook implementing demand forecasting and inventory optimization using time series analysis and linear programming."
+  category: "Jupyter Notebook"
+  icon: "bi-journal-code"
+  link: "#"
+  tags:
+    - Python
+    - Optimization
+    - Time Series
+
+- title: "Client Onboarding Automation"
+  description: "End-to-end n8n workflow automating client onboarding: form intake, CRM updates, Slack notifications, and document generation."
+  category: "n8n Workflow"
+  icon: "bi-diagram-3"
+  link: "#"
+  tags:
+    - n8n
+    - Automation
+    - Integration
+
+- title: "Financial KPI Tracker"
+  description: "Streamlit dashboard connecting to live databases displaying financial KPIs with drill-down capabilities and export features."
+  category: "Streamlit App"
+  icon: "bi-speedometer2"
+  link: "#"
+  tags:
+    - Streamlit
+    - SQL
+    - Finance
