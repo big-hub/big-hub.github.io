@@ -1,16 +1,16 @@
-- title: "Customer Churn Prediction"
-  description: "Jupyter notebook analyzing customer behavior patterns using scikit-learn and pandas to predict churn with 92% accuracy."
-  category: "Jupyter Notebook"
+- title: "Hospital Inpatient Discharge Estimator"
+  description: "Predict the estimated Total Charge for a respiratory cancer inpatient discharge in New York State, using SPARCS data from 2018-2021."
+  category: "ML app"
   icon: "bi-journal-code"
-  link: "#"
+  link: "https://ml-sparcs-neo022.fastapicloud.dev/"
   tags:
     - Python
     - Machine Learning
-    - pandas
+    - HTML/JS
 
 - title: "Sales Dashboard"
   description: "Interactive Streamlit application providing real-time sales metrics, trend analysis, and forecasting for e-commerce data."
-  category: "Streamlit App"
+  category: "Dashboard"
   icon: "bi-speedometer2"
   link: "#"
   tags:
@@ -30,7 +30,7 @@
 
 - title: "Inventory Optimization Model"
   description: "Jupyter notebook implementing demand forecasting and inventory optimization using time series analysis and linear programming."
-  category: "Jupyter Notebook"
+  category: "ML app"
   icon: "bi-journal-code"
   link: "#"
   tags:
@@ -50,7 +50,7 @@
 
 - title: "Financial KPI Tracker"
   description: "Streamlit dashboard connecting to live databases displaying financial KPIs with drill-down capabilities and export features."
-  category: "Streamlit App"
+  category: "Dashboard"
   icon: "bi-speedometer2"
   link: "#"
   tags:
