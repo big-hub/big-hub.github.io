@@ -1,22 +1,22 @@
 - title: "Hospital Inpatient Discharge Estimator"
   description: "Predict the estimated Total Charge for a respiratory cancer inpatient discharge in New York State, using SPARCS data from 2018-2021."
-  category: "ML app"
+  category: "ML App"
   icon: "bi-journal-code"
   link: "https://ml-sparcs-neo022.fastapicloud.dev/"
   tags:
     - Python
     - Machine Learning
-    - HTML/JS
+    - FastAPI Cloud
 
-- title: "Sales Dashboard"
-  description: "Interactive Streamlit application providing real-time sales metrics, trend analysis, and forecasting for e-commerce data."
+- title: "RentaFIC"
+  description: "The only ranking of Investment Funds (FICs) in Colombia based on real cumulative returns."
   category: "Dashboard"
   icon: "bi-speedometer2"
-  link: "#"
+  link: "https://rentafic.co"
   tags:
     - Streamlit
     - Python
-    - Plotly
+    - JavaScript
 
 - title: "Data Pipeline Orchestrator"
   description: "Automated n8n workflow that extracts data from multiple APIs, transforms it, and loads into a data warehouse on schedule."
@@ -30,7 +30,7 @@
 
 - title: "Inventory Optimization Model"
   description: "Jupyter notebook implementing demand forecasting and inventory optimization using time series analysis and linear programming."
-  category: "ML app"
+  category: "ML App"
   icon: "bi-journal-code"
   link: "#"
   tags:
