@@ -8,10 +8,10 @@ tagline: "Discover your Data. Process it, transform it, and make it valuable."
 # Company info
 owner:
   name: "Big Hub Solutions"
-  email: "owner@bighubsolutions.com"
+  email: "info@bighubsolutions.com"
   linkedin_username: "big-hub-solutions"
   github_username: "big-hub"
-  location: "U.S. & Colombia"
+  location: "Colombia"
 
 # Analytics
 gtm_id: "GTM-THHDCLF"
