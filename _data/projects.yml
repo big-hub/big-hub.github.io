@@ -28,15 +28,15 @@
     - API
     - ETL
 
-- title: "Inventory Optimization Model"
-  description: "Jupyter notebook implementing demand forecasting and inventory optimization using time series analysis and linear programming."
+- title: "OHLCV Markets"
+  description: "Multi-market stock analytics and next-day price prediction."
   category: "ML App"
   icon: "bi-journal-code"
-  link: "#"
+  link: "https://ohlcv.fastapicloud.dev/"
   tags:
-    - Python
-    - Optimization
-    - Time Series
+    - Pandas
+    - scikit-learn, XGBoost
+    - Dash + Plotly on FastAPI Cloud
 
 - title: "Client Onboarding Automation"
   description: "End-to-end n8n workflow automating client onboarding: form intake, CRM updates, Slack notifications, and document generation."
