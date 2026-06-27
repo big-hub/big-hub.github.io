@@ -18,8 +18,8 @@
     - Python
     - JavaScript
 
-- title: "Data Pipeline Orchestrator"
-  description: "Automated n8n workflow that extracts data from multiple APIs, transforms it, and loads into a data warehouse on schedule."
+- title: "[Case Study Coming Soon]"
+  description: "Rome wasn't built in a day, and neither is this website. Coming soon!"
   category: "n8n Workflow"
   icon: "bi-diagram-3"
   link: "#"
@@ -38,8 +38,8 @@
     - scikit-learn, XGBoost
     - Dash + Plotly on FastAPI Cloud
 
-- title: "Client Onboarding Automation"
-  description: "End-to-end n8n workflow automating client onboarding: form intake, CRM updates, Slack notifications, and document generation."
+- title: "[Currently Crafting]"
+  description: "A new digital experience is on its way."
   category: "n8n Workflow"
   icon: "bi-diagram-3"
   link: "#"
@@ -48,12 +48,12 @@
     - Automation
     - Integration
 
-- title: "Financial KPI Tracker"
-  description: "Streamlit dashboard connecting to live databases displaying financial KPIs with drill-down capabilities and export features."
+- title: "[Under Construction]"
+  description: "Our digital home is under construction."
   category: "Dashboard"
   icon: "bi-speedometer2"
   link: "#"
   tags:
-    - Streamlit
+    - Gradio
     - SQL
     - Finance
