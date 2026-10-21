@@ -9,7 +9,7 @@
     - FastAPI Cloud
 
 - title: "RentaFIC"
-  description: "The only ranking of Investment Funds (FICs) in Colombia based on real cumulative returns."
+  description: "The only benchmarking of Mutual Funds (FICs) in Colombia based on real cumulative returns."
   category: "Dashboard"
   icon: "bi-speedometer2"
   link: "https://rentafic.co"
