@@ -1,0 +1,13 @@
+{
+  "name": "Big Hub Solutions",
+  "short_name": "Big Hub",
+  "description": "Data Engineering Solutions & Process Optimization Agency",
+  "start_url": "/",
+  "display": "browser",
+  "background_color": "#0e1a24",
+  "theme_color": "#0e1a24",
+  "icons": [
+    { "src": "/img/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/img/icon-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}
