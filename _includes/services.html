@@ -6,9 +6,9 @@
         <div class="section-divider section-divider-light"></div>
       </div>
     </div>
-    <div class="row g-4">
+    <div class="row g-4 justify-content-center">
       {% for service in site.data.services %}
-      <div class="col-md-6 col-lg-3 fade-in">
+      <div class="col-md-6 col-lg-4 fade-in">
         <div class="service-card text-center h-100">
           <div class="service-icon">
             <i class="bi {{ service.icon }}"></i>
@@ -19,5 +19,21 @@
       </div>
       {% endfor %}
     </div>
+
+    {% if site.data.technologies %}
+    <div class="tech-stack text-center mt-5 fade-in">
+      <p class="tech-stack-label">Technologies we work with</p>
+      <ul class="tech-logos list-unstyled d-flex flex-wrap justify-content-center gap-3 gap-md-4 mb-0">
+        {% for tech in site.data.technologies %}
+        <li class="tech-logo">
+          <img src="{{ tech.image | relative_url }}" alt="{{ tech.name }}"
+               width="{{ tech.width }}" height="{{ tech.height }}"
+               style="height: {{ tech.display_height }}px;"
+               loading="lazy" decoding="async">
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+    {% endif %}
   </div>
 </section>

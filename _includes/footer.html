@@ -43,6 +43,12 @@
         <p class="text-light-muted mb-0 small">
           &copy; {{ site.time | date: '%Y' }} {{ site.title }}. All rights reserved.
         </p>
+        {% if site.data.technologies %}
+        <p class="text-light-muted mb-0 mt-2 small trademark-notice">
+          {{ site.data.technologies | map: "name" | array_to_sentence_string }}
+          {% if site.data.technologies.size == 1 %}is a trademark of its owner.{% else %}are trademarks of their respective owners.{% endif %}
+        </p>
+        {% endif %}
       </div>
     </div>
   </div>

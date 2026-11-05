@@ -625,6 +625,48 @@ a:hover {
   line-height: 1.7;
 }
 
+/* Technology logos (below service cards)
+   Vendor logos have dark wordmarks, so they sit on light tiles
+   instead of being recoloured (keeps brand guidelines intact). */
+.tech-stack {
+  position: relative; /* stay above .section-accent::before overlay */
+}
+
+.tech-stack-label {
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--color-text-secondary);
+  margin-bottom: 1.25rem;
+}
+
+.tech-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 240px;
+  height: 96px;
+  padding: 1rem 1.5rem;
+  background-color: #f8fafc;
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  border-radius: 16px;
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.25);
+  transition: var(--transition-bounce);
+}
+
+.tech-logo:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 16px 32px rgba(0, 0, 0, 0.35),
+              0 0 0 1px rgba(var(--color-accent-rgb), 0.35);
+}
+
+.tech-logo img {
+  width: auto;
+  max-width: 100%;
+  object-fit: contain;
+}
+
 /* ==========================================================
    9. PROJECT CARDS (projects page)
    ========================================================== */
@@ -865,6 +907,7 @@ a:hover {
   }
   
   .service-card,
+  .tech-logo,
   .btn-accent,
   .social-links a {
     transition: none;
@@ -941,6 +984,11 @@ a:hover {
   
   .service-card {
     padding: 2rem 1.5rem;
+  }
+
+  .tech-logo {
+    width: 200px;
+    height: 84px;
   }
   
   .scroll-indicator {
