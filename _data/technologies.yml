@@ -1,0 +1,15 @@
+# Technology logos shown below the "Our Services" cards.
+# width/height are the intrinsic pixel size of the file (prevents layout shift).
+# display_height is the rendered height in px, tuned per logo for optical balance.
+
+- name: "Databricks"
+  image: "/img/tech/databricks-lockup.png"
+  width: 800
+  height: 127
+  display_height: 30
+
+- name: "dbt"
+  image: "/img/tech/dbt-logo.png"
+  width: 800
+  height: 311
+  display_height: 48
